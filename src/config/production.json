@@ -1,0 +1,5 @@
+{
+    "sqsUrl": "https://sqs.us-east-2.amazonaws.com/165263112220/telemetry-dev",
+    "openSearchUrl": "vpc-telemetry-dev-2txxsa6mg6spymbjqvikavkxdi.us-east-2.es.amazonaws.com",
+    "openSearchAuth": "admin:R1cht3r1184$"
+}

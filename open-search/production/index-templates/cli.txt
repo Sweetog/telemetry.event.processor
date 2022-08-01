@@ -1,0 +1,28 @@
+PUT _index_template/cli-template
+{
+  "index_patterns": [
+    "cli",
+    "cli-*"
+  ],
+  "data_stream": {
+
+  },
+  "priority": 100,
+   "template": {
+    "mappings": {
+      "properties": {
+        "error": {
+          "type": "nested",
+            "properties": {
+              "name": {
+                "type": "text"
+              },
+              "stack": {
+                "type": "text"
+              }
+          }
+        }
+      }
+    }
+  }
+}

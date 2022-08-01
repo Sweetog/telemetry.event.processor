@@ -1,0 +1,5 @@
+{
+    "sqsUrl": "<sqs-url>",
+    "openSearchUrl": "<opensearch-url>",
+    "openSearchAuth": "<username:password>"
+}

@@ -1,0 +1,1 @@
+const counter = 48;export default counter;

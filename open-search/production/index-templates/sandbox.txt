@@ -1,0 +1,26 @@
+PUT _index_template/logs-template
+{
+  "index_patterns": [
+    "sandbox",
+    "sandbox-*"
+  ],
+  "data_stream": {},
+  "priority": 100,
+  "template": {
+    "mappings": {
+      "properties": {
+        "error": {
+          "type": "nested",
+            "properties": {
+              "name": {
+                "type": "text"
+              },
+              "stack": {
+                "type": "text"
+              }
+          }
+        }
+      }
+    }
+  }
+}
